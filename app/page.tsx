@@ -2,10 +2,8 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { FAQSection } from "@/components/faq-section";
-import { FeaturesSection } from "@/components/features-section";
 import { DownloadSection } from "@/components/download-section";
 import { StepsSection } from "@/components/steps-section";
-import { WhatItDoesSection } from "@/components/what-it-does-section";
 
 export default function Page() {
   return (
@@ -16,10 +14,6 @@ export default function Page() {
       <Header />
       <main id="main" className="mx-auto w-full max-w-6xl px-5 pb-16 pt-8 md:px-8 md:pt-12">
         <Hero />
-        <div className="my-10 gradient-divider" />
-        <WhatItDoesSection />
-        <div className="my-10 gradient-divider" />
-        <FeaturesSection />
         <div className="my-10 gradient-divider" />
         <StepsSection />
         <div className="my-10 gradient-divider" />
