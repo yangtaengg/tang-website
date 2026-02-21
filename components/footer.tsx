@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LINKS } from "@/lib/constants";
 
 export function Footer() {
@@ -9,12 +10,12 @@ export function Footer() {
           <a href={LINKS.contact} className="focus-ring hover:text-white">
             Contact
           </a>
-          <a href={LINKS.privacy} className="focus-ring hover:text-white">
+          <Link href={LINKS.privacy} className="focus-ring hover:text-white">
             Privacy
-          </a>
-          <a href={LINKS.terms} className="focus-ring hover:text-white">
+          </Link>
+          <Link href={LINKS.terms} className="focus-ring hover:text-white">
             Terms
-          </a>
+          </Link>
           <a href={LINKS.github} target="_blank" rel="noreferrer" className="focus-ring hover:text-white">
             GitHub
           </a>

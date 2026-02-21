@@ -12,9 +12,8 @@ export const LINKS = {
   contact: "mailto:contact@example.com",
   // TODO: replace with actual repository URL
   github: "https://example.com/github",
-  // TODO: replace with actual legal page URLs
-  privacy: "https://example.com/privacy",
-  terms: "https://example.com/terms"
+  privacy: "/privacy",
+  terms: "/terms"
 };
 
 export const DOWNLOAD_META = {
